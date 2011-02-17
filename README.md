@@ -8,7 +8,6 @@ Essentially generates a 2d array of values that can be used for height values in
 
 <code>
   require 'lib/terrain_generator'
-
   tg = TerrainGenerator.new(:size => 9, :height_seed => 100)
   tg.generate!
   tg.display_map
