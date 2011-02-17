@@ -72,7 +72,7 @@ class TerrainGenerator
     @data[x][y] = val.to_f
   end
 
-  def display_map
+  def display_height_map
     @data.each do |row|
       row.each do |v|
         print v.to_i.to_s.rjust(8)
