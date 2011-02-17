@@ -31,6 +31,6 @@ want all the floating-point accuracy, it should be pretty easy to get at the dat
 Read more:
 ----------
 
-  * http://stackoverflow.com/questions/2755750/diamond-square-algorithm
-  * http://www.gameprogrammer.com/fractal.html#diamond
-  * http://www.javaworld.com/javaworld/jw-08-1998/jw-08-step.html?page=2
+  * <a href="http://stackoverflow.com/questions/2755750/diamond-square-algorithm">http://stackoverflow.com/questions/2755750/diamond-square-algorithm</a>
+  * <a href="http://www.gameprogrammer.com/fractal.html#diamond">http://www.gameprogrammer.com/fractal.html#diamond</a>
+  * <a href="http://www.javaworld.com/javaworld/jw-08-1998/jw-08-step.html?page=2">http://www.javaworld.com/javaworld/jw-08-1998/jw-08-step.html?page=2</a>
