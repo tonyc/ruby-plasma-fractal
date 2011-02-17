@@ -7,8 +7,11 @@ It also includes Chris Hadley's changes to the algorithm per the StackOverflow t
 Essentially generates a 2d array of values that can be used for height values in a terrain:
 
   require 'lib/terrain_generator'
+
   tg = TerrainGenerator.new(:size => 9, :height_seed => 100)
+
   tg.generate!
+
   tg.display_map
 
 <pre>
