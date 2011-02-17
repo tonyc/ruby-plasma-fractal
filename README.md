@@ -1,4 +1,4 @@
-Diamond Square algorithm for terrain generation
+Diamond-square algorithm for terrain generation
 ===============================================
 
 This is a port of M. Jessup's Java implementation of the diamond-square algorithm to ruby.
