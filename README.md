@@ -33,4 +33,5 @@ Read more:
 
   * <a href="http://stackoverflow.com/questions/2755750/diamond-square-algorithm">http://stackoverflow.com/questions/2755750/diamond-square-algorithm</a>
   * <a href="http://www.gameprogrammer.com/fractal.html#diamond">http://www.gameprogrammer.com/fractal.html#diamond</a>
+  * <a href="http://danielbeard.wordpress.com/2010/08/07/terrain-generation-and-smoothing/">http://danielbeard.wordpress.com/2010/08/07/terrain-generation-and-smoothing/</a>
   * <a href="http://www.javaworld.com/javaworld/jw-08-1998/jw-08-step.html?page=2">http://www.javaworld.com/javaworld/jw-08-1998/jw-08-step.html?page=2</a>
