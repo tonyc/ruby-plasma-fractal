@@ -69,13 +69,13 @@ class TerrainGenerator
   end
   
   def set_cell(x, y, val)
-    @data[x][y] = val.to_i
+    @data[x][y] = val.to_f
   end
 
   def display_map
     @data.each do |row|
       row.each do |v|
-        print v.to_f.to_s.rjust(8)
+        print v.to_i.to_s.rjust(8)
       end
       puts
     end
