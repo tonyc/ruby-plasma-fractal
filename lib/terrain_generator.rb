@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby -wKU
-
 class TerrainGenerator
   DEFAULT_SIZE = 9
   DEFAULT_HEIGHT_SEED = 100
@@ -27,10 +25,9 @@ class TerrainGenerator
       half_side = side_length / 2
 
       x = 0
-
       while (x < size - 1) do
-        y = 0
 
+        y = 0
         while (y < size - 1) do
           c1 = @data[x][y]
           c2 = @data[x+side_length][y]
@@ -51,10 +48,10 @@ class TerrainGenerator
       # diamond step
       (0...size-1).step(half_side) do |x|
         (((x+half_side)%side_length)...(size-1)).step(side_length) do |y|
-          c1 = @data[(x - half_side + size) % size][y]
-          c2 = @data[(x + half_side)% size][y]
-          c3 = @data[x][(y + half_side) % size]
-          c4 = @data[x][(y - half_side + size) % size]
+          c1 = @data[(x-half_side+size-1) % (size-1)][y]
+          c2 = @data[(x + half_side)% (size-1)][y]
+          c3 = @data[x][(y + half_side) % (size-1)]
+          c4 = @data[x][(y - half_side + (size-1)) % (size-1)]
 
           avg = (c1 + c2 + c3 + c4) / 4.0
           avg = avg + (rand()*2*h) - h
