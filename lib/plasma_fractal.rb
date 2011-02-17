@@ -1,4 +1,4 @@
-class TerrainGenerator
+class PlasmaFractal
   DEFAULT_SIZE = 9
   DEFAULT_HEIGHT_SEED = 100
   
